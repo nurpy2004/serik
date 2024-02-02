@@ -1,0 +1,83 @@
+Discord Bot User Guide
+Table of Contents
+
+    Introduction
+    Getting Started
+        Adding the Bot to Your Server
+        Bot Prefix
+    Available Commands
+        Poll Command
+        Poll List Command
+        Poll Help Command
+        Close Poll Command
+        Translate Command
+    Command Usage Examples
+    Support
+
+Introduction
+
+Welcome to ser_bot, a Discord bot designed to enhance your server experience! This guide will help you navigate and utilize the bot's features effectively.
+Getting Started
+Adding the Bot to Your Server
+
+To begin using ser_bot, you need to add it to your Discord server. Follow these simple steps:
+
+    Authorize bot
+    Select the server where you want to add the bot.
+    Follow the on-screen instructions to complete the authorization process.
+    Follow README...
+
+Bot Prefix
+
+The default prefix for ser_bot is "!" or "/"You can use this prefix before each command to interact with the bot (e.g., /poll).
+Available Commands
+Poll Command
+
+    Usage: /poll
+    Description: Start a new poll in your server. You can customize the question, set multiple voting options, and more.
+
+Poll List Command
+
+    Usage: /polllist
+    Description: View a list of all open polls in your server.
+
+Poll Help Command
+
+    Usage: /pollhelp
+    Description: Display a list of all available commands and their descriptions.
+
+Close Poll Command
+
+    Usage: /closepoll
+    Description: Close a poll by providing the poll ID.
+
+Translate Command
+
+    Usage: /translate
+    Description: Translate text to a specified language. Provide the text to translate and the target language.
+
+Command Usage Examples
+Poll Command Example
+
+plaintext
+
+/poll
+  --question "What's your favorite color?"
+  --multiple-options true
+  --answer1 "Red"
+  --answer2 "Blue"
+  --answer3 "Green"
+
+Translate Command Example
+
+plaintext
+
+/translate
+  --text "Hello, how are you?"
+  --target-language "es"
+
+Support
+
+If you encounter any issues or have questions, feel free text me via telegram: zi_nl. Always ready to help!
+
+Feel free to customize the guide based on the actual commands and features your bot provides. Include additional sections if needed, such as troubleshooting tips or advanced features.
