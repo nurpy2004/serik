@@ -1,11 +1,11 @@
 # ser_bot
 
-Discord Bot written in golang that uses library discordgo and free gtranslate api provider library
+Discord Bot is written in Golang and uses the libraries discordgo and free gtranslate API provider library
 
 ## Getting Started
 ```bash
 cd directory 
-write your guild id and bot token in code 
+write your guild ID and bot token in the code 
 $ go run main.go
 ```
 ### Prerequisites
